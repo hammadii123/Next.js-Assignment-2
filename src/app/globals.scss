@@ -1,0 +1,70 @@
+// styles.scss
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar {
+    background-color: #2d3748;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 10;
+        gap: 50px;
+        list-style-type: none;
+        color: white;
+    }
+}
+
+.textParent {
+    align-content: center;
+    text-align: center;
+
+    height: 100%;
+
+    span {
+        color: #4f46e5; // Indigo color from Tailwind
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    p {
+        line-height: 1.6;
+        font-size: 70px;
+    }
+}
+
+
+.leftside {
+    width: 50% !important;
+    display: flex;
+
+    /* justify-items: center; */
+    justify-content: center;
+}
+
+.rightside {
+    width: 50%;
+
+    img {
+        border: 4px solid #f3f4f6; // Light border for the image
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+button {
+    &:hover {
+        box-shadow: 0 4px 8px rgba(79, 70, 229, 0.3); // Hover effect with shadow
+    }
+}
+
+
+.body {
+    display: flex;
+    width: 100%;
+    height: 450px;
+}
